@@ -24,7 +24,7 @@ while True:
         
     if key =='w' and gameMap[rr-1][rc] != 1 and 0<= rr - 1:
         rr -=1
-    gameMap[rr][rc]= 0
+    gameMap[rr][rc]= 2
     
 
 
